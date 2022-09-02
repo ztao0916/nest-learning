@@ -7,5 +7,7 @@
 
 推送分支到远程:` git push --set-upstream origin brand_name`
 
+合并代码直接用的`sourceTree`
+
 
 
