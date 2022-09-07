@@ -77,3 +77,27 @@ nest g co user
 
 
 
+一般创建一个新的模块需要的文件有
+
+```
+*.controller.ts //处理http请求,调用service层方法
+
+*.service.ts //封装逻辑代码,和数据库进行交互
+
+*.module.ts //跟模块,处理其他类的引用和共享
+
+dto目录  //待定,未知含义
+
+entities目录 //待定,未知含义
+```
+
+可以使用`nest g res user`,解释为**创建一个位于user目录的新模块**,需要删除前面`nest g co user`创建的目录
+
+好处就是不用一个个 `nest`命令处理
+
+
+
+
+
+
+
